@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+function show() {
+document.getElementById("heading").src = document.getElementById("selection").value;
+}
+    </script>
+</head>
+<body bgcolor="black">
+    <div class="form-row mt-2"  align="center"><img id="heading" src="img/dwarves-small.jpg"  style="max-width:274px;max-height:153px;margin-top:1%"/></br></br>
+            <select id="selection" onchange="show()"><option value=""></option><option value="image/1.png">144p</option><option value="image/2.png">240p</option><option value="image/3.png">480p</option><option value="image/4.png">720p</option><option value="image/5.jpg">1080p</option></select>    
+    </div>
+</body>
+</html>
